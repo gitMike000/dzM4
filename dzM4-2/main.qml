@@ -2,30 +2,6 @@ import QtQuick 2.15
 import QtCharts 2.15
 import QtQuick.Window 2.15
 
-//void LeastSquare(double& a, double& b, vector<double> x, vector<double> y)
-//{
-//    if (x.size()<2 || y.size()<2 || x.size() != y.size())
-//    {
-//        return;
-//    }
-
-//    double sum_x = 0;
-//    double sum_y = 0;
-//    double sum_xy = 0;
-//    double sum_xx = 0;
-//    for (size_t i = 0; i < x.size(); i++)
-//    {
-//        sum_x += x[i];
-//        sum_y += y[i];
-//        sum_xy += x[i] * y[i];
-//        sum_xx += x[i] * x[i];
-//    }
-
-//    b = (sum_xx*sum_y - sum_x*sum_xy)*1.0 / (x.size()*sum_xx - sum_x*sum_x);
-
-//    a = (x.size()*sum_xy - sum_x*sum_y)*1.0 / (x.size()*sum_xx - sum_x*sum_x);
-//}
-
 Window {
 
     property variant x: [7, 31, 61, 99, 129, 178, 209]
